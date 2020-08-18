@@ -5,11 +5,11 @@ class Alumnos():
     def connect(self):
         try:
             self.cnx = mysql.connector.connect(
-                user='ntyhc1m9hp357h4k', 
-                password='kjcvyv44xnwlswze',
+                user='nzh9vk6dky83kr8w', 
+                password='nzh9vk6dky83kr8w',
                 host='d9c88q3e09w6fdb2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
                 port=3306,
-                database='gsdehcc5j4961ts4')
+                database='czk2mup24pasy4nw')
             print("Conectado")
             self.cursor = self.cnx.cursor()
         except Exception as e:
